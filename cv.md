@@ -66,7 +66,6 @@ Web Innovations Studio OÜ, Estonia,
 May 2022 - ...
 
 Web development and digital marketing.
-
 ### **E-shop administrator/Digital marketing specialist**
 
 Abilis OÜ, Estonia,
