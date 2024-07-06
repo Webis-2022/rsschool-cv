@@ -406,4 +406,27 @@ input[type="range"]::-webkit-slider-thumb {
     font-weight: 500;
     letter-spacing: 0.03em; 
 }
+.footer {
+    background-color: #f39c00;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    height: 100%;
+}
+.github-repo {
+    color: #fff;
+}
+.github-repo img {
+    filter: invert(1);
+    width: 50px;
+    height: 50px;
+}
+.rss {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
 
