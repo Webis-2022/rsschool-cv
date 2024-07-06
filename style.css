@@ -115,3 +115,92 @@ main {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.about-me {
+    margin-top: 80px;
+}
+.about-me__text p {
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    font-style: 18px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-align: justify;
+    width: 840px;
+}
+pre {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+.hljs {
+    background: #fff !important;
+}
+.title__block {
+    width: 850px;
+    height: 90px;
+    background-color: #f39c00;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+   
+}
+.title__block:hover {
+    transform: translateX(-70px);
+    transition: all 1.5s ease-in-out;
+}
+.title__block:not(:hover) {
+    transform: translateX(0px);
+    transition: all 1.5s ease-in-out;
+} 
+.title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin-right: 20px;
+
+}
+.experience-items, .education-items, .courses-items {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 70px 20px;
+}
+.experience-item:hover .description, .education-item:hover .description, .courses-item:hover  .description {
+    scale: 1.1;
+    color: #000;
+    font-weight: 800;
+}
+.experience-item, .education-item, .courses-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.experience-item .year, .experience-item .description, .education-item .year, .education-item .description, .courses-item .year, .courses-item .description {
+    margin-left: 10px;
+}
+.year, .description {
+    display: inline-block;
+}
+.description {
+    margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    width: 300px;
+}
+.year {
+    width: 800px;
+}
+.year span {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    background-color: #f39c00;
+}
