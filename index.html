@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#about-me__block">About me</a></li>
+                <li class="menu__item"><a href="#code__block">Code</a></li>
+                <li class="menu__item"><a href="#education__block">Education</a></li>
+                <li class="menu__item"><a href="#experience__block">Experience</a></li>
+                <li class="menu__item"><a href="#courses__block">Courses</a></li>
+                <li class="menu__item"><a href="#contact-me__block">Contact me</a></li>
+                <li class="menu__item"><a href="#pro-skills__block">Pro skills</a></li>
+                <li class="menu__item"><a href="#my-projects__block">Projects</a></li>
+                <li class="menu__item"><a href="#language-skills__block">Language skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="center">
+            <div class="top-block__flex">
+                <div class="photo__wrapper"></div>
+                <div class="name__wrapper">
+                    <h1 class="name">Jevgeni Verjovkin</h1>
+                    <p class="profession">Junior Frontend Developer</p>
+                </div>
+            </div>
+            <div class="about-me" id="about-me__block">
+                <div class="title__block">
+                    <h2 class="title">About me</h2>
+                </div>
+                <div class="about-me__text">
+                    <p>I started learning web development 4 years ago. At first I studied and created several sites on Wordpress, and later I studied other content management systems, such as Joomla, Opencart, Prestashop. Later I studied HTML5 and CSS, and last year I started learning programming languages. I have a great interest in the field of web development and I hope that my desire to keep learning will help me become a good front-end developer.</p>
+                </div>
+            </div>
+            <div class="code" id="code__block">
+                <div class="title__block">
+                    <h2 class="title">Code</h2>
+                </div>
+                <pre><code class="javascript">
+    function findKiller(obj, namesOfVictims) {
+        for (let key in obj) {
+            let x = namesOfVictims.every(element => obj[key].includes(element));
+            if (x == true) {
+                return key;
+            }
+        }
+    }
+                </code></pre>
+            </div>
+            <div class="education" id="education__block">
+                <div class="title__block">
+                    <h2 class="title">Education</h2>
+                </div>
+                <div class="education-items">
+                    <div class="education-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2007 - 2013</span>
+                            <span>Ecomen (Estonia, Higher education)</span>
+                        </div>
+                        <div class="description">
+                            <p>Energy and facilities management</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2001 - 2003</span>
+                            <span>Kohtla-Järve Polütehnikum <br> (Estonia, Vocational education)</span>
+                        </div>
+                        <div class="description">
+                            <p>Automation systems</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="experience" id="experience__block">
+                <div class="title__block">
+                    <h2 class="title">Experience</h2>
+                </div>
+                <div class="experience-items">
+                    <div class="experience-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>May 2022 - …</span>
+                            <span>Web Innovations Studio OÜ, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Owner and CEO</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>Jul 2020 - Jul 2022</span>
+                            <span>Abilis OÜ, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>E-shop administrator/Digital marketing specialist</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>Jan 2015 - …</span>
+                        </div>
+                        <div class="description">
+                            <p>Freelancer</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>Dec 2019 - Mar 2020</span>
+                            <span>OMIS OÜ, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Computer Teacher</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>Feb 2017 - Oct 2018</span>
+                            <span>Greiner Packaging AS</span>
+                        </div>
+                        <div class="description">
+                            <p>Automation Technician</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>Jan 2014 - Jan 2015</span>
+                            <span>TET Estel AS, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Marketing specialist</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>Aug 2010 - May 2011</span>
+                            <span>Kiviõli keemiatööstus AS, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Automation Technician</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>Jul 2007 - Aug 2009</span>
+                            <span>Sakala Tööstusautomaatika OÜ, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Sales manager</p>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>Jun 2003 - Jul 2007</span>
+                            <span>Nitrofert AS, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Automation Technician</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="courses" id="courses__block">
+                <div class="title__block">
+                    <h2 class="title">Courses</h2>
+                </div>
+                <div class="courses-items">
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2019 year</span>
+                            <span>Multi Lingua school</span>
+                        </div>
+                        <div class="description">
+                            <p>Estonian language courses, level C1</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2019 year</span>
+                            <span>Gelmett Consult OÜ, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Marketing, advertising and sales for bussiness</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2018 year</span>
+                            <span>Exceptional english OÜ, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>English language courses</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2017 year</span>
+                            <span>Lasnamäe School of Mechanics, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Visualisation and programming of controllers</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2017 year</span>
+                            <span>Lasnamäe School of Mechanics, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Automation technician training</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2014 year</span>
+                            <span>TET Estel AS, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Effective Sales Technology for Bussiness Clients</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>Aug 2010 - May 2011</span>
+                            <span>Kiviõli keemiatööstus AS, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Automation Technician</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2011 year</span>
+                            <span>Ida Virumaa kutsehariduskeskus, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Electrician</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2011 year</span>
+                            <span>Ida Virumaa kutsehariduskeskus, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Programmable controllers</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2008 year</span>
+                            <span>JUMO GmbH & Co. KG, Germany</span>
+                        </div>
+                        <div class="description">
+                            <p>Programmable controllers</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2008 year</span>
+                            <span>COMECO Inc, Bulgaria</span>
+                        </div>
+                        <div class="description">
+                            <p>Controllers & Sensors</p>
+                        </div>
+                    </div>
+                    <div class="courses-item">
+                        <div class="square"></div>
+                        <div class="year">
+                            <span>2008 year</span>
+                            <span>Moeller, Estonia</span>
+                        </div>
+                        <div class="description">
+                            <p>Electrical equipment</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="sidebar">
+            <div class="sidebar__content">
+                <div class="sidebar__title-block" id="contact-me__block">
+                    <h2>Contact me</h2>
+                </div>
+                <div class="contact-info">
+                    <div class="web">
+                        <img src="assets/icons/world-wide-web.png" alt="">
+                        <span>Web</span>
+                        <p><a href="mailto:verjovkin.jevgeni@gmail.com">verjovkin.jevgeni@gmail.com</a></p>
+                        <p><a href="https://webis.ee" target="_blank">https://webis.ee</a></p>
+                    </div>
+                    <div class="discord">
+                        <img src="assets/icons/discord.png" alt="">
+                        <span>Discord</span>
+                        <p>Jevgeni Verjovkin (Webis-2022)</p>
+                        
+                    </div>
+                    <div class="phone">
+                        <img src="assets/icons/telephone.png" alt="">
+                        <span>Phone</span>
+                        <p><a href="tel:+37256220216">+372 56220216</a></p>
+                    </div>
+                    <div class="facebook">
+                        <img src="assets/icons/facebook.png" alt="">
+                        <span>Facebook</span>
+                        <p><a href="https://www.facebook.com/jevgeni.verjovkin">https://www.facebook.com/jevgeni.verjovkin</a></p>
+                    </div>
+                </div>
+                <div class="sidebar__title-block" id="pro-skills__block">
+                    <h2>Pro skills</h2>
+                </div>
+                <div class="pro-skills">
+                    <label for="layout">Html & css</label>
+                    <input type="range" name="layout" id="layout">
+                    <label for="cms">Wordpress & Prestashop</label>
+                    <input type="range" name="cms" id="cms">
+                    <label for="javascript">Javascript</label>
+                    <input type="range" name="javascript" id="javascript">
+                    <label for="other-languages">NodeJS & PHP</label>
+                    <input type="range" name="other-languages" id="other-languages">
+                    <label for="mysql">Mysql</label>
+                    <input type="range" name="mysql" id="mysql">
+                    <label for="figma">Figma</label>
+                    <input type="range" name="figma" id="figma">
+                    <label for="photoshop">Photoshop & Gimp</label>
+                    <input type="range" name="photoshop" id="photoshop">
+                    <label for="vsc">Visual Studio Code</label>
+                    <input type="range" name="vsc" id="vsc">
+                    <label for="windows">Windows 10</label>
+                    <input type="range" name="windows" id="windows">
+                    <label for="seo">SEO</label>
+                    <input type="range" name="seo" id="seo">
+                    <label for="ads">Google Ads & Facebook Ads</label>
+                    <input type="range" name="ads" id="ads">
+                </div>
+                <div class="sidebar__title-block" id="my-projects__block">
+                    <h2>My projects</h2>
+                </div>
+                <div class="my-projects">
+                    <div class="my-projects__list">
+                        <div class="my-projects__item">
+                            <a href="https://animated-fox-f70162.netlify.app/">To do list</a>
+                            <div class="icons">
+                                <img src="assets/icons/icons8-html-5-48.png" alt="HTML">
+                                <img src="assets/icons/icons8-css3-48.png" alt="CSS">
+                                <img src="assets/icons/icons8-javascript-48.png" alt="CSS">
+                            </div>
+                        </div>
+                        <div class="my-projects__item">
+                            <a href="https://webis.ee/portfoolio/">My portfolio</a>
+                            <div class="icons">
+                                <img src="assets/icons/icons8-html-5-48.png" alt="HTML">
+                                <img src="assets/icons/icons8-css3-48.png" alt="CSS">
+                                <img src="assets/icons/icons-wordpress.png" alt="Wordpress">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar__title-block" id="language-skills__block">
+                    <h2>Language skills</h2>
+                </div>
+                <div class="language-skills">
+                    <label for="russian">Russian</label>
+                    <input type="range" name="russian" id="russian">
+                    <label for="estonian">Estonian</label>
+                    <input type="range" name="estonian" id="estonian">
+                    <label for="english">English</label>
+                    <input type="range" name="english" id="english">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="github-repo">
+                © 2024
+                <a href="https://github.com/Webis-2022"><img src="assets/icons/github.png" alt="Github"></a> 
+            </div>
+            <a href="https://rs.school/courses/javascript-preschool-ru"><img class="rss" src="assets/img/rss.svg" alt="Rs school course image"></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>
