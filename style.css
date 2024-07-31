@@ -10,7 +10,6 @@ body, html {
     overflow-x: hidden;
 }
 body {
-    max-width: 1920px;
     width: 100%;
 }
 ul,li {
@@ -20,8 +19,8 @@ a {
     color: #fff;
 }
 .container {
-    width: 1920px;
     margin: 0 auto;
+    max-width: 1980px;
 }
 .header {
     width: 100%;
@@ -66,6 +65,8 @@ main {
 .top-block__flex {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
 }
 .photo__wrapper {
     width: 400px;
@@ -75,27 +76,24 @@ main {
     border-width: 20px;
     border-color: #29292b;
     background: #f39c00 url("assets/img/my-photo.png") no-repeat center/cover;
-    position: relative;
-    left: 70px;
-    top: 50px;
     z-index: 16;
     margin-bottom: 40px;
+    margin-left: 50px;
 }
 .photo__wrapper img {
     position: absolute;
 }
 .name__wrapper {
-    width: 1480px;
+    width: 1570px;
     height: 200px;
     background-color: #f39c00;
     position: absolute;
-    top: 225px;
-    left: 440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 30px;
     z-index: 14;
+    transform: translateX(410px);
 }
 .name {
     padding-left: 60px;
@@ -115,6 +113,7 @@ main {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .about-me {
     margin-top: 80px;
 }
@@ -136,7 +135,7 @@ pre {
     background: #fff !important;
 }
 .title__block {
-    width: 850px;
+    width: 95%;
     height: 90px;
     background-color: #f39c00;
     display: flex;
@@ -198,11 +197,13 @@ pre {
     font-size: 22px;
     font-weight: bold;
 }
+
 .square {
     width: 40px;
     height: 40px;
     background-color: #f39c00;
 }
+
 .sidebar {
     position: relative;
     z-index: 12;
@@ -429,4 +430,7 @@ input[type="range"]::-webkit-slider-thumb {
     height: 100px;
     margin-right: 20px;
 }
+
+
+
 
