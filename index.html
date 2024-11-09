@@ -51,7 +51,7 @@
                     <pre><code class="javascript">
         function findKiller(obj, namesOfVictims) {
             for (let key in obj) {
-                let x = namesOfVictims.every(element => obj[key].includes(element));
+                let x = namesOfVictims.every(element =&gt;obj[key].includes(element));
                 if (x == true) {
                     return key;
                 }
